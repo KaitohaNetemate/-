@@ -1,0 +1,201 @@
+@charset "UTF-8";
+/* 共通部分*/
+html{background-color:#D9D9D9;}
+html, body {
+  height: 100%;
+  margin: 0; /* bodyのデフォルトのマージンをリセット */
+  position: relative;
+}
+h1,h2{font-family:"Zen Antique";
+	font-size:48px;
+	color:black;
+	font-weight:light;}
+.title{color:black;
+	text-decoration:none;
+	}
+.url{
+	font-family:"Noto Serif Kannada";
+	font-size:24px;
+	font-weight:bold;
+	margin-top:200px;
+	text-shadow: 0px 4px 4px rgb(0,0,0,0.25);
+	
+}
+.head{display:flex;
+	justify-content:space-between;
+	margin-right:50px;
+	margin-left:50px;
+}
+header{
+background-color:white;
+}
+.list{
+	background-color:rgb(101,41,206,0.52);
+	font-size:20px;
+	list-style-type:none;
+	margin-left:none;
+	margin-right:none;
+	line-height:80px;
+	padding:none;
+	border-top:solid;
+	border-bottom:solid;
+	width:100%;
+	
+	border-color:#5DF173;
+	box-shadow: 0px 4px 4px rgb(0,0,0,0.25);
+	display:flex;
+	
+	position:relative;
+	float:left;
+	text-align:center;
+	
+	
+}
+#cafe{
+	margin-top:90px;
+margin-right:-70px;}
+#logo{
+margin-top:64px;}
+
+.box{
+	padding:none;
+  width: 10px;
+  height: 80px;
+	background: #D9D9D9;
+}
+p{margin-top:10px;}
+h3{margin-top:10px;
+}
+h4{margin-left:20px;}
+.pankuzu{
+	text-decoration:none;
+	color:rgb(99,38,39,0.6);
+	
+}
+h2{
+text-align:center;}
+
+.item{
+
+	justify-content:space-between;
+	float:left;
+	min-height: 80vh;/*①高さの最小値*/
+	
+	
+	position: sticky;
+	height:auto;/*②相対位置*/
+	
+}
+
+#main{
+	width:60%;
+	background-color:white;
+ border-right:solid;
+	border-left:solid;
+margin-left:20%;}
+li{
+list-style-position:inside;}
+
+footer{clear : both;
+	
+	font-size : small;
+	
+	padding-bottom : 40px;
+	background-color:#D9D9D9;
+	margin-top : 10px;
+
+border-top:solid;
+}
+
+.kontenar{
+	margin:none;
+	position:relative;
+	width:50%;
+	
+}
+
+.kontenar:hover {
+	background-color:yellow;
+	
+}
+.kontenar:active {
+ background-color:white;
+}
+
+.link{
+	text-decoration:none;
+color:black;}
+
+#chapter{
+	font-size:13px;
+	display:flex;
+	justify-content:space-between;
+	margin-top:20px;
+	
+}
+
+#main p,div,h3,section{
+		padding-left:10px;
+padding-right:10px;}
+
+.list a{
+display:block;}
+
+.appendix{
+	margin-top:15px;
+margin-bottom:30px;}
+h4{
+	padding-top:10px;
+padding-bottom:10px;}
+
+address{font-style:normal;
+}
+
+.kuuran{font-style:normal;
+color:white;
+	border-bottom:dotted;
+	border-color:black;
+}
+
+
+.kuuran:hover{
+color:red;}
+
+#illustration{
+	margin-top:0;
+	margin-bottom:5px;
+font-size:13px;}
+
+.mondai{
+	margin-top:20px;
+margin-bottom:20px;}
+#square{
+	border:1px solid;
+background-color:#DE7070; }
+
+
+
+@media (max-width: 700px) {
+	.kontenar{
+	font-size:10px;}
+	.head{
+		flex-flow:column;
+		text-align:center;
+	}
+	h1,h2{
+	font-size:60px;}
+	#main{
+		width:100%;
+		margin-left:0%;
+	border:none;}
+	
+	#cafe{
+	margin-right:0;}
+	#koredake{
+	font-size:50px;}
+	
+}
+
+	
+
+	
